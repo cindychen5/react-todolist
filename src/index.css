@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: dodgerblue;
+    height: 100px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
