@@ -1,4 +1,5 @@
 import React from "react";
+import {ToDoItem} from "./ToDoItem";
 
 export function MyInfo() {
     const firstName = "Cindy";
@@ -28,14 +29,12 @@ export function MyInfo() {
                     Japan
                 </li>
             </ul>
-            <input type="checkbox"/>
-            <p>Placeholder text</p>
 
-            <input type="checkbox"/>
-            <p>Placeholder text</p>
+            <ToDoItem/>
 
-            <input type="checkbox"/>
-            <p>Placeholder text</p>
+            <ToDoItem/>
+
+            <ToDoItem/>
         </>
     )
 }
