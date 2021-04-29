@@ -1,21 +1,11 @@
-import React from "react";
-import "../index.css"
+import React from "react"
 
-export function ToDoItem() {
-    const styles = {
-        color: 'orange',
-        backgroundColor: 'blue',
-        display: 'inline-flex',
-        flexDirection: 'column',
-        margin: 5
-    }
-
-
+export function TodoItem(props) {
+    // console.log('props', props.item)
     return (
         <div className="todo-item">
-
-            <input type="checkbox"/>
-            <p>to do list item</p>
-       </div>
+            <input type="checkbox" checked={props.item.completed}/>
+            <p>{props.item.text}</p>
+        </div>
     )
 }

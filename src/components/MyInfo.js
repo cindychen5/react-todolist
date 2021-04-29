@@ -1,5 +1,4 @@
 import React from "react";
-import {ToDoItem} from "./ToDoItem";
 import {ContactCard} from "./ContactCard";
 
 export function MyInfo() {
@@ -44,15 +43,6 @@ export function MyInfo() {
                 phone="212-244-9672"
                 email="daisythecat@gmail.com"
             />
-
-            <h3>To Do List:</h3>
-            <div className='todo-list'>
-            <ToDoItem/>
-
-            <ToDoItem/>
-
-            <ToDoItem/>
-            </div>
         </>
     )
 }
